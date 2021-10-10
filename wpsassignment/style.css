@@ -1,0 +1,280 @@
+*{
+    box-sizing:border-box;
+}
+#example1 {
+    background-image: url(doctorw1.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+  .box{
+      display:block;
+      margin:20px;
+      border:solid 10px;
+      padding: 10px;
+      border-color:blueviolet;
+      background-color: thistle;
+      width:60%;
+  }
+  .box2{
+      margin-right:40px;
+      border:solid 10px;
+      border-color:black;
+  }
+  .box1{
+    display:block;
+    margin:10px;
+    border:solid 10px;
+    padding: 10px;
+    border-color:black;
+    background-color: yellowgreen;
+    width:60%;
+}
+.box3{
+  display:block;
+  margin:10px;
+  border:solid 10px;
+  padding: 10px;
+  border-color:black;
+  background-color: yellowgreen;
+  width:100%;
+}
+.box4{
+  display:block;
+    margin:10px;
+    border:solid 10px;
+    padding: 10px;
+    border-color:#008CBA;
+    background-color: paleturquoise;
+    width:100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#008CBA;
+
+}
+.box5{
+  display:block;
+    margin:10px;
+    border:solid 10px;
+    padding: 10px;
+    border-color:#008CBA;
+    background-color: paleturquoise;
+    width:20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#008CBA;
+
+}
+  .x{
+    display:block;
+    border:solid 5px;
+    padding: 10px;
+    border-color:thistle;
+    background-color: grey;
+    width:20%;
+    height:10%;
+  }
+  .y{
+      background-color: silver;
+      float:right;
+  }
+  h11{
+      color:white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: centre;
+      margin:20px;
+      font-size:x-large;
+  }
+#example2 {
+    background-image: url(doctorw6.jpg);
+    background-position:left,left bottom;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+#example3 {
+    background-image: url(doctorw2.jpg);
+    background-position:left,left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+.fix{
+    position:relative;
+    bottom:10px;
+    height:20%;
+}
+.right{
+    position:relative;
+    float:right;
+    bottom:10px;
+    width:30%;
+}
+.center {
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 30%;
+  }
+.button12 {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button1:hover {
+    background-color: purple;
+    color: white;
+  }
+  .button3 {
+    background-color: black; 
+    border-radius: 8px;
+    color: white; 
+  }
+  
+  .b{
+    background-color: silver;
+    color: black;
+    margin: 20px;
+    width:20%;
+    border: 2px solid #008CBA;
+  }
+  .b:hover {
+    background-color: rgb(102, 0, 128);
+    color: white;
+  }
+  .il{
+      background-color:ivory;
+
+  }
+  .column1 {
+    float: left;
+    width: 20%;
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .e{
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      display:grid;
+      border: solid 5px;
+      border-color: turquoise;
+      background-color: cadetblue;
+      text-align:centre;
+  }
+  .d{
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size:medium;
+  }
+
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: rgb(221, 221, 221);
+  }
+  
+  .btn.active {
+    background-color: #ddd;
+    color: white;
+  }
+  .f{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#008CBA;
+
+  }
+  .g{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cornflowerblue;
+  }
+  .b5 {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+  }
+  .b5:hover{
+    background-color: seagreen;
+  }
+  .button5 {border-radius: 12px;}
+  .button4 {border-radius: 50%;}
+  .button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+ 
+.buttonk {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.k {
+  background-color:wheat; 
+  color: black; 
+  border:black
+}
+
+.k:hover {
+  background-color:yellowgreen;
+  color: black;
+}
+  
